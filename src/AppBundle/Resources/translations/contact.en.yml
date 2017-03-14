@@ -1,0 +1,11 @@
+form_input_first_name: 'First name'
+form_input_last_name: 'Last name'
+form_input_email: Email
+form_input_phone_number: 'Phone number'
+form_input_send_copy_to_client: 'Send me a copy'
+form_textarea_message: 'Your message'
+form_button_send: 'Send message'
+h2_contact: 'Contact form'
+page_title: 'Contact form - E-bike Mont Blanc'
+div_success: 'Thank you for your message, we will answer you as soon as possible.'
+contact-header-title: 'Contact form'

@@ -1,0 +1,17 @@
+{% extends 'AppBundle::layout.html.twig' %}
+{% block title %}
+    {{ parent() }}
+    {% trans from "product" %}
+        page_title
+    {% endtrans %} - {{ id }}
+{% endblock %}
+{% block content %}
+    <div class="container-fluid product-sections">
+        {{ include('AppBundle:product/section:highlights.html.twig') }}
+        {{ include('AppBundle:product/section:itinerary.html.twig') }}
+        {{ include('AppBundle:product/section:description.html.twig') }}
+        {{ include('AppBundle:product/section:included.html.twig') }}
+        {{ include('AppBundle:product/section:faq.html.twig') }}
+        {{ include('AppBundle:product/section:review.html.twig') }}
+    </div>
+{% endblock %}

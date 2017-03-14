@@ -1,0 +1,13 @@
+{% extends 'AppBundle::layout.html.twig' %}
+{% block title %}{{ parent() }}Home{% endblock %}
+{% block homepage_carousel %}
+    {{ include('AppBundle:home/modules:herobanner.html.twig') }}
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row homepage-modules">
+            {{ include('AppBundle:home/modules:information.html.twig') }}
+            {{ include('AppBundle:home/modules:contact.html.twig') }}
+        </div>
+    </div>
+{% endblock %}

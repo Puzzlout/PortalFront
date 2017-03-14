@@ -1,0 +1,142 @@
+
+
+/* Navbar */
+.navbar.transparent {
+    border-width: 0;
+    -webkit-box-shadow: 0 0;
+    -moz-box-shadow: 0 0;
+    box-shadow: 0 0;
+    background-color: rgba(0, 0, 0, 0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-image: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+#navbar .active > a {
+    background-color: transparent;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.dropdown-menu.navbar-inverse > li > a {
+    color: #9d9d9d;
+}
+
+.dropdown-menu.navbar-inverse > li > a:hover, .dropdown-menu.navbar-inverse > li > a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+
+/* Vertical menu */
+#vertical-menu {
+    background: white;
+    font-size: 3em;
+}
+
+/* Home page */
+
+.headerbg {
+    height: 100% !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    min-width: 320px;
+    background: url(../images/home/slider1bis.jpg);
+}
+
+.herobanner-title, .herobanner-subtitle {
+    color: #FFF;;
+}
+.brand-name {font-family: "Varela Round", "Open Sans";}
+.ebike-brand {color: #019e7b;}
+.mtb-brand {color: #FFF;}
+
+.btn-custom-color,
+.contact-send-button button {
+    background-color: #017f84;
+    background: #017f84;
+    color: #FFF;
+    border: 1px solid #015c76;
+    text-transform: uppercase
+}
+.contact-send-button button {
+    font-size: larger;
+}
+
+/* Product page */
+.topbanner img {
+    width: 100%;
+}
+
+.icon-box-img .icon-inner .fa {
+    font-size: 4em;
+    color: #017f84;
+}
+.icon-box-img .icon-inner .fa:hover {
+    font-size: 5em;
+    color: #001d26;
+}
+
+.uppercase, .uppercase-light {
+    text-transform: uppercase;
+}
+.uppercase,
+.lead-dark {
+    color: #666;
+}
+
+.uppercase-light,
+.lead-light,
+.fa-light-color {
+    color: #fff;
+}
+
+.section-list {
+    font-size: 1.3em;
+}
+
+
+.icon-container {
+    background-color: #017f84;
+    border-radius: 80px;
+}
+.icon-container .fa {
+    color: #fff;
+}
+
+/* Footer */
+#footer-menu {
+    background-color: #001d26;
+    color: #fff;
+}
+
+#footer-links span > a {
+    color: #fff;
+}
+
+#footer-links span > a:hover {
+    font-weight: bolder;
+}
+
+.cookie-consent {
+    background: #fff none repeat scroll 0 0;
+    color: #666;
+}
+
+.cookie-consent-button {
+    background-color: #FFF;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #000;
+    font-size: 0.8em;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 100px;
+}
+
+.partner-span { text-align: center; }
+.footer-social {
+    text-align: center;
+    line-height: 5;
+}

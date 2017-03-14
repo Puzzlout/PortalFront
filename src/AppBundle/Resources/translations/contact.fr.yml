@@ -1,0 +1,11 @@
+page_title: 'Page de contact - E-bike Mont Blanc'
+h2_contact: 'Formulaire de contact'
+form_input_first_name: Prénom
+form_input_last_name: Nom
+form_input_email: Email
+form_input_phone_number: Téléphone
+form_textarea_message: 'Texte du message'
+form_button_send: Envoyer
+div_success: 'Merci pour votre message, nous allons le traiter dans les plus bref délais. Bonne journée.'
+form_input_send_copy_to_client: 'M''envoyer une copie'
+contact-header-title: 'Formulaire de contact'

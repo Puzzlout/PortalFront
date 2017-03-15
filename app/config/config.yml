@@ -82,7 +82,9 @@ lexik_translation:
     base_layout: "AdminBundle::lexik-layout.html.twig"
 assetic:
     debug:          '%kernel.debug%'
-    use_controller: '%kernel.debug%'
+    use_controller:
+        enabled:              '%kernel.debug%'
+        profiler:             false
     filters:
         cssrewrite: ~
 

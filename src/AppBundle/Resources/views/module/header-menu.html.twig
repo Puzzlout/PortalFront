@@ -20,12 +20,6 @@
                     <li class="{% if route=='home' %}active{% endif %}">
                         <a href="{{ path('home') }}">{% trans %}header-menu_a_home{% endtrans %}</a>
                     </li>
-                    <li class="dropdown {% if route=='product_get' %}active{% endif %}">
-                        <a aria-expanded="false"
-                           href="{{ path('product_get', {'productId': 1}) }}">
-                            {% trans %}header-menu_a_products{% endtrans %}
-                        </a>
-                    </li>
                     <li class="{% if route=='contact' %}active{% endif %}">
                         <a href="{{ path('contact') }}">
                             {% trans %}header-menu_a_contact{% endtrans %}

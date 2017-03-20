@@ -78,7 +78,6 @@ build/
 /web/uploads/
 /web/css/*
 /web/js/*
-/src/AppBundle/Resources/public/vendor/
 
 # Assets managed by Bower
 /web/assets/vendor/

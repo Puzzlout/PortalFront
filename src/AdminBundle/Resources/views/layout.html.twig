@@ -3,7 +3,7 @@
 {% block stylesheets %}
     {{ parent() }}
     {% stylesheets
-    'assets/vendor/bootstrap/dist/css/bootstrap.min.css'
+    'bundles/app/vendor/bootstrap.min.css'
     filter='cssrewrite' %}
     <link rel="stylesheet" href="{{ asset_url }}"/>
     {% endstylesheets %}
@@ -37,8 +37,8 @@
 {% block javascripts %}
  {{ parent() }}
  {% javascripts
- 'assets/vendor/jquery/dist/jquery.min.js'
- 'assets/vendor/bootstrap/dist/js/bootstrap.min.js'
+ 'bundles/app/vendor/jquery.min.js'
+ 'bundles/app/vendor/bootstrap.min.js'
  'bundles/admin/js/*' %}
  <script type="text/javascript" src="{{ asset_url }}"></script>
  {% endjavascripts %}

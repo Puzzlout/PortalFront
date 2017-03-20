@@ -22,4 +22,3 @@ app_homepage:
 lexik_translation_edition:
     resource: "@LexikTranslationBundle/Resources/config/routing.yml"
     prefix:   /admin/translation
-

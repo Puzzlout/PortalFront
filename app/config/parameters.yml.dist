@@ -1,10 +1,15 @@
-# Example parameters
+# This file is a "template" of what your parameters.yml file should look like
+# Set parameters here that may be different on each deployment target of the app, e.g. development, staging, production.
+# http://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
 parameters:
-    database_host: 127.0.0.1
-    database_port: null
-    database_name: symfony
-    database_user: travis
-    database_password: null
+    database_host: %database.host%
+    database_port: %database.port%
+    database_name: %database.name%
+    database_user: %database.user%
+    database_password: %database.password%
+    # You should uncomment this if you want use pdo_sqlite
+    # database_path: "%kernel.root_dir%/data.db3"
+
     mailer_transport: smtp
     mailer_host: 'mail.supremecluster.com'
     mailer_user: 'noreply@puzzlout.com'
@@ -17,7 +22,7 @@ parameters:
     mail_noreply_address: 'noreply@puzzlout.com'
     mail_admin_language: 'en'
     secret: ThisTokenIsNotSoSecretChangeIt
-    api_url: http://api.trektoursflyer.dev
+    api_url: http://localhost/puzzlout_api/web
     api_format: .json
     recaptcha_secret: '6LdYySYTAAAAAONjo0rnip6P0683oIUMBjAtxIsp'
     recaptcha_key: '6LdYySYTAAAAAHsQPC8FOFbyADhZbWZNx7147ZY8'
